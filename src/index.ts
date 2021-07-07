@@ -1,1 +1,1 @@
-export const HI = "Hello World";
+export * from "./fundAccount";

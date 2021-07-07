@@ -1,7 +1,7 @@
 {
-  "name": "ts-template",
+  "name": "mainnet-fork-helpers",
   "version": "0.0.1",
-  "description": "A template for typescript packages",
+  "description": "helpers for working with hardhat mainnet fork",
   "author": "Sam Hatem <sam.hatem17@gmail.com>",
   "main": "lib/index.js",
   "module": "lib.esm/index.js",
@@ -16,7 +16,12 @@
       "url": "https://github.com/samhatem"
     }
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@ethersproject/abstract-signer": "^5.4.0",
+    "@ethersproject/bignumber": "^5.4.0",
+    "@ethersproject/constants": "^5.4.0",
+    "@ethersproject/contracts": "^5.4.0"
+  },
   "peerDependencies": {},
   "devDependencies": {
     "@types/jest": "^26.0.23",
